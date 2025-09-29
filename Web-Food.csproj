@@ -68,6 +68,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="Web\ChiTietSanPham\Index.css" />
+    <Content Include="Web\ChiTietSanPham\Index.html" />
+    <Content Include="Web\GiaoHang\Index.css" />
+    <Content Include="Web\GiaoHang\Index.html" />
+    <Content Include="Web\GioHang\Index.css" />
+    <Content Include="Web\GioHang\Index.html" />
+    <Content Include="Web\HomePage\Index.css" />
+    <Content Include="Web\HomePage\Index.html" />
+    <Content Include="Web\Login\Index.css" />
+    <Content Include="Web\Login\Index.html" />
+    <Content Include="Web\MasterLayOut\Index.css" />
+    <Content Include="Web\MasterLayOut\Index.html" />
+    <Content Include="Web\Paid\Index.css" />
+    <Content Include="Web\Paid\Index.html" />
+    <Content Include="Web\XacNhanDonHang\Index.css" />
+    <Content Include="Web\XacNhanDonHang\Index.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +96,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Web\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
