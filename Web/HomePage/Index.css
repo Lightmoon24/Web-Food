@@ -4,7 +4,6 @@
 }
 
 .content {
-    background-color: lightpink;
     position: fixed;
     top: 10%;
     bottom: 10%;
@@ -12,11 +11,12 @@
     width: 80%;
     height: 80%;
     display: flex;
+    padding: 0;
 }
 
 .Menu {
 position: fixed;
-height: 10%;
+height: 70px;
 min-width: 100%;
 width: auto;
 background-color: lightgreen;
@@ -24,23 +24,51 @@ border: solid black 1px;
 overflow-x:auto;
 overflow-y: hidden;
 display: flex;
+}
 
+.MainContent {
+align-items: top;
+margin-top: 70px;
+width: 100%;
+min-height: 90%;
+background-color: lightyellow;
+border: solid black 1px;
 }
 
 .leftBar {
-    background-color: aqua;
+    background-color: ;
     position: fixed;
-    height: 100%;
+    top: 10%;
+    height: 80%;
     width: 20%;
     margin: 1px auto;
     left: 0;
     overflow-y: scroll;
 }
+h4{
+    padding-left: 20px;
+    display: flex;
+}
 
-.MainContent {
-margin-top: 8%;
-width: 100%;
-height: auto;
-background-color: lightyellow;
-border: solid black 1px;
+.btnLeftBar {
+    height: 100%;
+    width: 100%;
+  border: none;
+  background-color: white;
+  transition:color 0.6s ease;
+}
+.btnLeftBar:hover {
+    color: tomato;
+    cursor: pointer;
+}
+.Gif{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    border: 1px solid gray;
 }
