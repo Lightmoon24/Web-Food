@@ -1,2 +1,46 @@
 ﻿body {
+    margin: auto;
+    display: flex;
+}
+
+.content {
+    background-color: lightpink;
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.Menu {
+position: fixed;
+height: 10%;
+min-width: 100%;
+width: auto;
+background-color: lightgreen;
+border: solid black 1px;
+overflow-x:auto;
+overflow-y: hidden;
+display: flex;
+
+}
+
+.leftBar {
+    background-color: aqua;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    margin: 1px auto;
+    left: 0;
+    overflow-y: scroll;
+}
+
+.MainContent {
+margin-top: 8%;
+width: 100%;
+height: auto;
+background-color: lightyellow;
+border: solid black 1px;
 }
