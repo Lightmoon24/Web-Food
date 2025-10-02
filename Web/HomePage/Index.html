@@ -1,18 +1,16 @@
 ﻿<!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <link rel="stylesheet" href="../MasterLayOut/Index.css" />
     <link rel="stylesheet" href="Index.css" />
     <meta charset="utf-8" />
     <title></title>
 </head>
-
 <body>
     <div class="Header"><img class="logo" src="../images/logo.png">
         <div class="login">
-            <button class="btnLogin">Đăng Nhập</button>
-            <button class="btnSignUp">Đăng Ký</button>
+            <a href="../Login/Index.html"><button class="btnLogin">Đăng Nhập</button></a>
+            <a href="../Login/Index.html"><button class="btnSignUp">Đăng Ký</button></a>
         </div>
         <div class="leftBar">
             <div>
@@ -50,18 +48,21 @@
         <div class="content">
             <div class="Menu">
                 <button class="nav-btnl">&lt;</button>
-                <span class="menu-text"><img class="menu-img" src="../images/menu1.png"></span>
-                <span class="menu-text"><img class="menu-img" src="../images/menu2.png"></span>
+                <span class="menu-text"><button class="btnMenu"><img class="menu-img" src="../images/menu1.png"></span></button>
+                <span class="menu-text"><button class="btnMenu"><img class="menu-img" src="../images/menu2.png"></button></span>
                 <button class="nav-btnr">&gt;</button>
             </div>
             <div class="MainContent">
-                <h1>MainContent</h1>
+                <div class="MainTextDiv">
+                    <img class="MainImgDiv" src="../images/raumaxaotoi">
+                    <p class="FoodName">Món:Rau Má Xào Bò</p>
+                    <p class="FoodName">Giá: 39.000đ</p>
+                    <h5 class="order"></h5>
+                </div>
             </div>
         </div>
         <div class="Footer">
             <h1>Footer</h1>
         </div>
 </body>
-
-
 </html>
