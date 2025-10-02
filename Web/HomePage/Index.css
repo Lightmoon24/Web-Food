@@ -162,13 +162,11 @@ font-size:  20px;;
     transition: 1s ease;
 }
 
-    /* chữ gốc */
     .order::after {
       content: "ODER NOW";
       size: 50px;
     }
 
-    /* khi hover thì đổi */
     .order:hover {
       background-color: black;
     }
