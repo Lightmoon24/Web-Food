@@ -19,11 +19,12 @@ position: fixed;
 height: 70px;
 min-width: 100%;
 width: auto;
-background-color: lightgreen;
+background-color: whitesmoke;
 border: solid black 1px;
 overflow-x:auto;
 overflow-y: hidden;
 display: flex;
+align-items: center;
 }
 
 .MainContent {
@@ -36,7 +37,6 @@ border: solid black 1px;
 }
 
 .leftBar {
-    background-color: ;
     position: fixed;
     top: 10%;
     height: 80%;
@@ -72,3 +72,47 @@ hr{
     padding: 0;
     border: 1px solid gray;
 }
+  .menu-bar {
+    background: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* đẩy nút ra 2 bên */
+    align-items: center;
+    border: 1px solid black;
+  }
+
+  .menu-text {
+    font-weight: bold;
+  }
+
+  .nav-btnl,.nav-btnr {
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .nav-btnl:hover, .nav-btnr:hover {
+    background: black;
+    color: white;
+    transition: 0.36 ease;
+    height: 70px;
+  }
+  .nav-btnr{
+    position: fixed;
+    right: 0;
+  }
+  .menu-text{
+   
+   margin-right: 30px;
+  }
+    .menu-img{
+      align-items: top;
+      height: 50px;
+      width: auto;
+      margin-right: 10px;
+      margin-left: 5px;
+    }
+

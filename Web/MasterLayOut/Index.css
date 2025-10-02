@@ -1,5 +1,5 @@
 ﻿.Header {
-    background-color: rgb(243, 240, 240);
+    background-color: lightpink;
     top: 0;
     position: fixed;
     height: 10%;
@@ -8,7 +8,7 @@
     border-bottom: 1px solid black;
 }
 .Footer {
-    background-color: rgb(243, 240, 240);
+    background-color: lightpink;
     bottom: 0px;
     position: fixed;
     width: 100%;
@@ -19,5 +19,26 @@
     height: 100%;
     width: auto;
     padding-left: 13%;
-    padding-top: 25px;
+    padding-top: 0;
+}
+.login {
+    display: flex;
+    position: absolute;
+    right: 8%;
+    top: 25px;
+}
+.btnLogin, .btnSignUp {
+margin-left: 20px;
+width: 100px;
+height: 30px;
+border-radius: 8px;
+background-color: white;
+
+}
+.btnLogin:hover, .btnSignUp:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: 0.9s ease;
 }
