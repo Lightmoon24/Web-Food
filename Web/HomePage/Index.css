@@ -28,6 +28,7 @@ align-items: center;
 }
 
 .MainContent {
+display: flex;
 align-items: top;
 margin-top: 70px;
 width: 100%;
@@ -141,6 +142,8 @@ position: fixed;
   border-radius: 10px 10px 0 0;
   border: solid black 1px;
   width: 200px;
+  max-height: 300px;
+  height: max-content;
   padding: 0;
 }
 .FoodName{
