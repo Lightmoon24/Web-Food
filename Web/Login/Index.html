@@ -1,11 +1,73 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="Index.css">
-    <meta charset="utf-8" />
-    <title></title>
+
+</style>
 </head>
+<link rel="stylesheet" href="Index.css">
+
 <body>
-    <p>Hello </p>
+<div class="box">
+<div class="tabs">
+<button id="tab-login" class="active">Đăng nhập</button>
+<button id="tab-register">Đăng ký</button>
+</div>
+
+
+<div id="login-box">
+<h2>Đăng nhập</h2>
+<input type="text" id="login-username" placeholder="Tên đăng nhập">
+<input type="password" id="login-password" placeholder="Mật khẩu">
+<button onclick="login()">Đăng nhập</button>
+<div id="login-msg" class="msg"></div>
+</div>
+
+
+<div id="register-box" style="display:none;">
+<h2>Đăng ký</h2>
+<input type="text" id="reg-username" placeholder="Tên đăng nhập">
+<input type="password" id="reg-password" placeholder="Mật khẩu">
+<button onclick="register()">Đăng ký</button>
+<div id="reg-msg" class="msg"></div>
+</div>
+</div>
+
+
+<script>
+const users = {}; // Lưu tạm trong bộ nhớ
+
+
+function showTab(tab) {
+document.getElementById('login-box').style.display = tab === 'login' ? 'block' : 'none';
+document.getElementById('register-box').style.display = tab === 'register' ? 'block' : 'none';
+document.getElementById('tab-login').classList.toggle('active', tab==='login');
+document.getElementById('tab-register').classList.toggle('active', tab==='register');
+}
+
+
+document.getElementById('tab-login').onclick = () => showTab('login');
+document.getElementById('tab-register').onclick = () => showTab('register');
+
+
+function register(){
+const u = document.getElementById('reg-username').value;
+const p = document.getElementById('reg-password').value;
+const msg = document.getElementById('reg-msg');
+if(!u || !p){ msg.innerText = 'Vui lòng nhập đầy đủ'; return; }
+if(users[u]){ msg.innerText = 'Tài khoản đã tồn tại'; return; }
+users[u] = p;
+msg.innerText = 'Đăng ký thành công!';
+}
+
+
+function login(){
+const u = document.getElementById('login-username').value;
+const p = document.getElementById('login-password').value;
+const msg = document.getElementById('login-msg');
+if(users[u] && users[u] === p){
+msg.innerText = 'Đăng nhập thành công!';
+} else {
+msg.innerText = 'Tài khoản không tồn tại';
+}
+}
+</script>
 </body>
 </html>
