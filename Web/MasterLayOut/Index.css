@@ -10,7 +10,7 @@
 .Footer {
     display: flex;
     background-color: lightpink;
-    border-top: 1px solid black;
+    border-top: 1px solid lightpink;
     bottom: 0px;
     position: fixed;
     width: 100%;
