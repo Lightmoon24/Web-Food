@@ -1,2 +1,139 @@
-﻿body {
+﻿body {align-items: center;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.ShipInfo{   
+    display: flex;
+}
+.Item{
+    margin-right: 30px;
+    padding: 10px;
+    border: solid black 1px;
+    height: max-content;
+    border-radius: 10px;
+}
+input{
+    border: solid gainsboro 1px;
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+.button-choice-container input[type="radio"] {
+    display: none;
+}
+.button-choice-container label{
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    border: solid gainsboro 1px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    min-height: 50px;
+    min-width: 50px;
+    text-align: center;
+    align-items: center;
+    transition: 0.7s;
+    padding-bottom: 4%;
+}
+.button-choice-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.choice1:hover, .choice2:hover{
+    background-color:violet;
+}
+.button-choice-container input[type="radio"]:checked + label {
+    background-color: lightpink;
+    border-radius: 0;
+    border: solid black 2px;
+    color:aliceblue;
+}
+.text{
+    padding-left: 30px;
+}
+.Save{
+    border: none;
+    text-align: right;
+}
+.Save button{
+background-color: lightskyblue;
+border: 1px solid black ;
+width: 80px;
+height: 30px;
+cursor: pointer;
+transition: 0.3s;
+}
+.Save button:hover{
+    background-color: rgb(30, 68, 236);
+    color:aliceblue;
+}
+.Paid{
+    height: max-content;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.radioPaid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.radioPaid input[type="radio"]{
+    display: none;
+}
+.radioPaid label{
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5%;
+    transition: 0.5s;
+    padding-left: 4px;
+    cursor:pointer;
+}
+.radioPaid hr{
+    padding: 0;
+}
+
+.radioPaid input[type="radio"]:checked + label{
+    color: blue;
+    border-color: blue;
+    border-radius: 15px;
+}
+.radioPaid input[type="radio"]:hover + label:hover{
+    background-color: lightskyblue;
+    border-radius: 15px;
+}
+h6, .radioPaid h4{
+    margin: 0;
+    padding:0
+}
+.Voucher input{
+    width: 80%;
+    left: 10%;
+    margin-left: 5%;
+    border-color: deeppink;
+    background-color:lightpink;
+    transition: 0.3s;
+}
+.Voucher input:focus{
+    background-color: lightcyan;
+    border-color: cyan;
+}
+.Order-detail{
+    display:flex;
+    justify-content: space-between;
+}
+.Order-detail span{
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
