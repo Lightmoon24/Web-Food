@@ -19,6 +19,7 @@ border: 1px solid palevioletred;
 .User-account a{
 text-decoration: none;
 color: black;
+left: 0;
 }
 .User-account a:hover{
 color: palevioletred;
@@ -63,3 +64,5 @@ h3{
     margin: 10px;
     font-size: 20px;
 }
+.Item p{font-size: 20px;}
+
