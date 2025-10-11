@@ -16,10 +16,10 @@
 
     <div class="container">
         <div class="main-layout">
-            <!-- ✅ Danh sách sản phẩm demo -->
+            <!--  Danh sách sản phẩm demo -->
             <div class="cart-list" id="cartList"> </div>
 
-            <!-- ✅ Thanh toán -->
+            <!--  Thanh toán -->
             <div class="sidebar">
                 <div class="summary-box">
                     <div class="summary-title">Chi tiết thanh toán :</div>
@@ -43,8 +43,8 @@
 
                 <div class="voucher-section">
                     <label class="voucher-label">Mã giảm giá có sẵn :</label>
-                    <div class="voucher-item" onclick="applyVoucher('SAVE20')">SAVE20 - Giảm 20%</div>
-                    <div class="voucher-item" onclick="applyVoucher('FREE50')">FREE50 - Miễn phí vận chuyển</div>
+                    <div class="voucher-item" data-code="SAVE20" onclick="applyVoucher('SAVE20')">SAVE20 - Giảm 20%</div>
+                    <div class="voucher-item" data-code="FREE50" onclick="applyVoucher('FREE50')">FREE50 - Miễn phí vận chuyển</div>
                 </div>
 
                 <button class="checkout-btn" id="checkoutBtn" onclick="checkout()">Tiến đến thanh toán</button>

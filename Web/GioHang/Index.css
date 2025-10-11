@@ -217,6 +217,11 @@ body {
   background-color: #ff4fa3;
   color: #fff;
 }
+.voucher-item.active {
+  background-color: #ffb5d6;
+  color: white;
+  border-color: #ff4fa3;
+}
 
 .checkout-btn {
   width: 100%;
