@@ -1,10 +1,61 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title>Giỏ Hàng</title>
 </head>
 <body>
+    <div class="navbar">
+        <div class="navbar-content">
+            <div class="logo">🍴</div>
+            <div class="cart-title">Giỏ hàng</div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="main-layout">
+            <!-- ✅ Danh sách sản phẩm demo -->
+            <div class="cart-list" id="cartList"> </div>
+
+            <!-- ✅ Thanh toán -->
+            <div class="sidebar">
+                <div class="summary-box">
+                    <div class="summary-title">Chi tiết thanh toán :</div>
+                    <div class="summary-row">
+                        <span>Tổng đơn hàng :</span>
+                        <span class="value" id="subtotal">126,000 VND</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Tiền vận chuyển :</span>
+                        <span class="value" id="shipping">20,000 VND</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Giảm giá :</span>
+                        <span class="value" style="color: #ee4d2d;" id="discount">0 VND</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Tổng cộng :</span>
+                        <span class="total-price" id="total">146,000 VND</span>
+                    </div>
+                </div>
+
+                <div class="voucher-section">
+                    <label class="voucher-label">Mã giảm giá có sẵn :</label>
+                    <div class="voucher-item" onclick="applyVoucher('SAVE20')">SAVE20 - Giảm 20%</div>
+                    <div class="voucher-item" onclick="applyVoucher('FREE50')">FREE50 - Miễn phí vận chuyển</div>
+                </div>
+
+                <button class="checkout-btn" id="checkoutBtn" onclick="checkout()">Tiến đến thanh toán</button>
+
+                <div style="text-align: center; font-size: 12px; color: #999; margin-top: 12px;">
+                    <a href="#" style="color: #ee4d2d; text-decoration: none;">Tiếp tục mua sắm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Index.js"></script>
 </body>
 </html>
