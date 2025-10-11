@@ -1,0 +1,68 @@
+.User-account{
+    position: fixed;
+    top: 10%;
+    width:25%;
+    min-height: 75%;
+    background-color: white;
+    border: 1px solid palevioletred;
+}
+.main-content{
+background-color: white;
+position: fixed;
+color: black;
+top: 10%;
+left: 25%;
+min-width: 75%;
+min-height: 75%;
+border: 1px solid palevioletred;
+}
+.User-account a{
+text-decoration: none;
+color: black;
+left: 0;
+}
+.User-account a:hover{
+color: palevioletred;
+}
+.Item img{
+width: 200px;
+height: auto;
+border: 2px solid palevioletred;
+}
+.Item{
+    border-bottom: 1px solid palevioletred;
+    border-top:1px solid palevioletred;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+.Item a {
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: white;
+    color: violet;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.Item a:hover{
+    background-color: deeppink;
+    transition: 0.3s;
+}
+.main-content h4{
+    color:rgb(230, 65, 230);
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+h3{
+    color: palevioletred;
+    margin: 10px;
+    font-size: 20px;
+}
+.Item p{font-size: 20px;}
+
