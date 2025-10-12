@@ -2,31 +2,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
 }
 
 body {
   background-color: #f5f5f5;
-  margin: 0;
+  margin: 10%;
 }
 
-/* ==== Navbar ==== */
- .navbar {
-    background-color: #ff4fa3;
-    padding: 12px 0;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-
-.navbar-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
 
 .logo {
   font-size: 24px;

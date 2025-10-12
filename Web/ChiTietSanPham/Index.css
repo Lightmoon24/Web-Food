@@ -1,14 +1,14 @@
-* {
-  box-sizing: border-box;
+*{
   margin: 0;
   padding: 0;
 }
-
 body {
+  margin-top: 10%;
   font-family: Arial, sans-serif;
   background: #fff;
   color: #333;
   line-height: 1.5;
+  
 }
 
 /* Container chính */

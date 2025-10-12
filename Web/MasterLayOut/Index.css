@@ -1,4 +1,5 @@
-﻿.Header {
+﻿header,footer{
+.Header {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     background-color: lightpink;
@@ -19,7 +20,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    height: 20%;
+    height: 15%;
     z-index: 1;
     padding: 0;
     border-top: 1px solid black;
@@ -83,4 +84,5 @@ padding-left: 20px;
 }
 .mini-bar a:hover{
     color: aqua;
+}
 }
