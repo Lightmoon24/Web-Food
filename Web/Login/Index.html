@@ -1,73 +1,56 @@
 ﻿<!DOCTYPE html>
-
-</style>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập / Đăng ký</title>
+  <link rel="stylesheet" href="Index.css">
+  <style>
+  </style>
 </head>
-<link rel="stylesheet" href="Index.css">
-
 <body>
-<div class="box">
-<div class="tabs">
-<button id="tab-login" class="active">Đăng nhập</button>
-<button id="tab-register">Đăng ký</button>
-</div>
 
+  <div class="container" id="form-container">
+    <h2 id="form-title">Đăng nhập</h2>
 
-<div id="login-box">
-<h2>Đăng nhập</h2>
-<input type="text" id="login-username" placeholder="Tên đăng nhập">
-<input type="password" id="login-password" placeholder="Mật khẩu">
-<button onclick="login()">Đăng nhập</button>
-<div id="login-msg" class="msg"></div>
-</div>
+    <!-- FORM ĐĂNG NHẬP -->
+    <form id="login-form">
+      <input type="text" id="login-username" placeholder="Tên đăng nhập" required />
+      <input type="password" id="login-password" placeholder="Mật khẩu" required />
+      <button type="submit">Đăng nhập</button>
+      <p style="margin-top:10px; font-size:14px;">
+        <a id="forgot-password-link">Quên mật khẩu?</a>
+      </p>
+    </form>
 
+    <!-- FORM ĐĂNG KÝ -->
+    <form id="register-form" style="display: none;">
+      <input type="text" id="register-username" placeholder="Tên đăng nhập" required />
+      <input type="email" id="register-email" placeholder="Email" required />
+      <input type="password" id="register-password" placeholder="Mật khẩu" required />
+      <input type="password" id="register-confirm" placeholder="Xác nhận mật khẩu" required />
+      <button type="submit">Đăng ký</button>
+    </form>
 
-<div id="register-box" style="display:none;">
-<h2>Đăng ký</h2>
-<input type="text" id="reg-username" placeholder="Tên đăng nhập">
-<input type="password" id="reg-password" placeholder="Mật khẩu">
-<button onclick="register()">Đăng ký</button>
-<div id="reg-msg" class="msg"></div>
-</div>
-</div>
+    <!-- CHUYỂN ĐỔI FORM -->
+    <div class="toggle">
+      <span id="toggle-text">Chưa có tài khoản? <a id="toggle-link">Đăng ký</a></span>
+    </div>
 
+    <!-- THÔNG BÁO -->
+    <div class="message-box" id="message-box"></div>
+  </div>
 
-<script>
-const users = {}; // Lưu tạm trong bộ nhớ
+  <!-- POPUP QUÊN MẬT KHẨU -->
+  <div class="overlay" id="overlay"></div>
+  <div class="forgot-box" id="forgot-box">
+    <h3>Khôi phục mật khẩu</h3>
+    <input type="email" id="forgot-email" placeholder="Nhập email của bạn" required />
+    <button id="send-reset">Gửi liên kết</button><br>
+    <button id="close-forgot" style="background:#ccc; color:#000;">Đóng</button>
+  </div>
 
-
-function showTab(tab) {
-document.getElementById('login-box').style.display = tab === 'login' ? 'block' : 'none';
-document.getElementById('register-box').style.display = tab === 'register' ? 'block' : 'none';
-document.getElementById('tab-login').classList.toggle('active', tab==='login');
-document.getElementById('tab-register').classList.toggle('active', tab==='register');
-}
-
-
-document.getElementById('tab-login').onclick = () => showTab('login');
-document.getElementById('tab-register').onclick = () => showTab('register');
-
-
-function register(){
-const u = document.getElementById('reg-username').value;
-const p = document.getElementById('reg-password').value;
-const msg = document.getElementById('reg-msg');
-if(!u || !p){ msg.innerText = 'Vui lòng nhập đầy đủ'; return; }
-if(users[u]){ msg.innerText = 'Tài khoản đã tồn tại'; return; }
-users[u] = p;
-msg.innerText = 'Đăng ký thành công!';
-}
-
-
-function login(){
-const u = document.getElementById('login-username').value;
-const p = document.getElementById('login-password').value;
-const msg = document.getElementById('login-msg');
-if(users[u] && users[u] === p){
-msg.innerText = 'Đăng nhập thành công!';
-} else {
-msg.innerText = 'Tài khoản không tồn tại';
-}
-}
-</script>
+  <script>
+  </script>
 </body>
 </html>
