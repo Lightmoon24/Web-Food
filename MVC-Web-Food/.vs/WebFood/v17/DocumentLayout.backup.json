@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\web Design\\MVC-Web-Food\\WebFood\\WebFood\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\admin\\desktop\\web design\\mvc-web-food\\webfood\\webfood\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 16,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChiTietSanPham.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\web Design\\MVC-Web-Food\\WebFood\\WebFood\\Views\\Home\\ChiTietSanPham.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ChiTietSanPham.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\web Design\\MVC-Web-Food\\WebFood\\WebFood\\Views\\Home\\ChiTietSanPham.cshtml",
+              "RelativeToolTip": "Views\\Home\\ChiTietSanPham.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T13:22:18.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 534,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
