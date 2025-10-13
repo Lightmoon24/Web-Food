@@ -1,0 +1,244 @@
+﻿body {
+}
+/* ==== Reset & Base ==== */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 10%;
+}
+
+
+.logo {
+    font-size: 24px;
+}
+
+.cart-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ==== Layout chính ==== */
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 20px;
+}
+
+.main-layout {
+    display: flex;
+    gap: 24px;
+    max-width: 1200px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+/* ==== Danh sách giỏ hàng ==== */
+.cart-list {
+    flex: 2;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    min-height: 300px;
+}
+
+/* === Mỗi sản phẩm === */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #eee;
+    padding: 14px 0;
+    transition: 0.25s;
+}
+
+    .cart-item:last-child {
+        border-bottom: none;
+    }
+
+    .cart-item:hover {
+        background-color: #fff8f7;
+    }
+
+.item-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.item-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: #222;
+}
+
+.item-desc {
+    font-size: 13px;
+    color: #777;
+}
+
+.item-price {
+    color: #ee4d2d;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.item-quantity {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+    .item-quantity button {
+        background-color: #ffe6f2;
+        border: 1px solid #f58cbf;
+        padding: 4px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+        .item-quantity button:hover {
+            background-color: #f58cbf;
+            color: white;
+        }
+
+    .item-quantity input {
+        width: 50px;
+        text-align: center;
+        border: 1px solid #f58cbf;
+        border-radius: 4px;
+        padding: 3px;
+    }
+
+.item-remove {
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+    .item-remove:hover {
+        color: #ee4d2d;
+    }
+
+/* ==== Sidebar thanh toán ==== */
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 20px;
+}
+
+.summary-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.summary-title {
+    font-weight: bold;
+    color: #ee4d2d;
+    margin-bottom: 10px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #444;
+}
+
+    .summary-row.total {
+        font-weight: 700;
+        color: #ee4d2d;
+        font-size: 15px;
+        border-top: 1px solid #eee;
+        padding-top: 8px;
+    }
+
+.voucher-section {
+    margin-top: 15px;
+}
+
+.voucher-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ee4d2d;
+}
+
+.voucher-item {
+    margin-top: 8px;
+    background-color: #fff5f3;
+    color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.25s;
+    font-size: 14px;
+}
+
+    .voucher-item:hover {
+        background-color: #ff4fa3;
+        color: #fff;
+    }
+
+.checkout-btn {
+    width: 100%;
+    background-color: #ff4fa3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+    .checkout-btn:hover {
+        background-color: #ff4fa3;
+    }
+
+/* ==== Link tiếp tục mua sắm ==== */
+.sidebar a {
+    color: #ee4d2d;
+    text-decoration: none;
+}
+
+    .sidebar a:hover {
+        text-decoration: underline;
+    }
+
+/* ==== Responsive ==== */
+@media (max-width: 900px) {
+    .main-layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: relative;
+        top: unset;
+    }
+}
