@@ -28,11 +28,11 @@ Dự án hướng đến việc xây dựng một **giao diện thân thiện**,
 
 ## 🌟 Tính năng chính
 
-- 🔹 Đăng ký, đăng nhập người dùng  
-- 🔹 Xem danh sách món ăn theo danh mục  
-- 🔹 Giỏ hàng và thanh toán trực tuyến
-- 🔹 Xem chi tiết các món ăn
-- 🔹 Trang quản trị: quản lý món ăn, người dùng, đơn hàng   
+ 🔹 Đăng ký, đăng nhập người dùng  
+ 🔹 Xem danh sách món ăn theo danh mục  
+ 🔹 Giỏ hàng và thanh toán trực tuyến
+ 🔹 Xem chi tiết các món ăn
+ 🔹 Trang quản trị: quản lý món ăn, người dùng, đơn hàng   
 
 ---
 
