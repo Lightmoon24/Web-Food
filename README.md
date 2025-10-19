@@ -22,7 +22,7 @@ Dự án hướng đến việc xây dựng một **giao diện thân thiện**,
 | **Front-end** | HTML, CSS, JavaScript |
 | **Back-end** | ASP.NET MVC 5 (C#) |
 | **Cơ sở dữ liệu** | SQL Server |
-| **Công cụ** | Visual Studio 2022, GitHub, Git |
+| **Công cụ** | Visual Studio 2022, GitHub, Git, SQL Server|
 
 ---
 
@@ -30,9 +30,9 @@ Dự án hướng đến việc xây dựng một **giao diện thân thiện**,
 
  🔹 Đăng ký, đăng nhập người dùng  
  🔹 Xem danh sách món ăn theo danh mục  
- 🔹 Giỏ hàng và thanh toán trực tuyến
- 🔹 Xem chi tiết các món ăn
- 🔹 Trang quản trị: quản lý món ăn, người dùng, đơn hàng   
+ 🔹 Giỏ hàng và thanh toán trực tuyến\
+ 🔹 Xem chi tiết các món ăn\
+ 🔹 Trang quản trị: quản lý món ăn, người dùng, đơn hàng  
 
 ---
 
