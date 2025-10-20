@@ -50,5 +50,9 @@ namespace WebFood.Controllers
         {
             return View();
         }
+        public ActionResult MasterLayOut()
+        {
+            return View();
+        }
     }
 }

@@ -11,20 +11,20 @@
 <header>
     <div class="Header">
         <div>
-            <a href="../HomePage/Index.html"><img class="logo" src="../images/logo.png"></a>
+            <a href="@Url.Action("HomePage", "Home")"><img class="logo" src="~/Content/images/logo.png"></a>
         </div>
         <div class="Search-container">
             <label for="search"></label>
             <input class="SearchBar" type="text" id="search" name="search" placeholder="Seacrh">
         </div>
         <div class="mini-bar">
-            <a href="../lichsumuahang/index.html"><i class="fa-solid fa-bell"></i><br>Thông Báo</a>
-            <a href="../HomePage/Index.html"><i class="fa-solid fa-house"></i><br>Home</a>
-            <a href="#"><i class="fa-solid fa-user"></i><br>ProFile</a>
+            <a href="@Url.Action("GioHang","Home")"><i class="fa-solid fa-bell"></i><br>Thông Báo</a>
+            <a href="@Url.Action("HomePage","Home")"><i class="fa-solid fa-house"></i><br>Home</a>
+            <a href="@Url.Action("GiaoHang","Home")"><i class="fa-solid fa-user"></i><br>ProFile</a>
         </div>
         <div class="login">
-            <a href="../Login/Index.html"><button class="btnLogin">Đăng Nhập</button></a>
-            <a href="../Login/Index.html"><button class="btnSignUp">Đăng Ký</button></a>
+            <a href="@Url.Action("Login","Home")"><button class="btnLogin">Đăng Nhập</button></a>
+            <a href="@Url.Action("Login","Home")"><button class="btnSignUp">Đăng Ký</button></a>
         </div>
     </div>
 </header>
