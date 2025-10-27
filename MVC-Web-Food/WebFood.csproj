@@ -153,6 +153,7 @@
     <Content Include="Content\CSS\LichSuMuaHang.css" />
     <Content Include="Content\CSS\Login.css" />
     <Content Include="Content\CSS\MasterLayOut.css" />
+    <Content Include="Content\CSS\Register.css" />
     <Content Include="Content\HomePage.css" />
     <Content Include="Content\images\Ganyu.gif" />
     <Content Include="Content\images\hinh01.png" />
@@ -203,6 +204,7 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\LichSuMuaHang.cshtml" />
     <Content Include="Views\Home\MasterLayOut.cshtml" />
+    <Content Include="Views\Home\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

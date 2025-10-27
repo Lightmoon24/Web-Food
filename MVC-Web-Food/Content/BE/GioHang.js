@@ -18,7 +18,6 @@ function renderCart() {
 
         cartList.innerHTML += `
         <div class="cart-item">
-            <img src="${item.image}" alt="${item.name}" class="item-img">
             <div class="item-info">
                 <div class="item-name">${item.name}</div>
                 <div class="item-price">${item.price.toLocaleString()} VND</div>
@@ -90,11 +89,6 @@ function applyVoucher(code) {
         alert(" Áp dụng mã FREE50 thành công! Miễn phí vận chuyển.");
     }
     updateSummary(subtotal);
-}
-
-/* ===== Thanh toán ===== */
-function checkout() {
-    alert("Demo Demo Demo. Gì quan trọng nói 3 lần =)))) ");
 }
 
 renderCart();

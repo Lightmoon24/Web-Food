@@ -19,9 +19,9 @@
             <input class="SearchBar" type="text" id="search" name="search" placeholder="Seacrh">
         </div>
         <div class="mini-bar">
-            <a href="@Url.Action("GioHang","Home")"><i class="fa-solid fa-bell"></i><br>Thông Báo</a>
+            <a href="@Url.Action("LichSuMuaHang","Home")"><i class="fa-solid fa-bell"></i><br>Thông Báo</a>
             <a href="@Url.Action("HomePage","Home")"><i class="fa-solid fa-house"></i><br>Home</a>
-            <a href="@Url.Action("GiaoHang","Home")"><i class="fa-solid fa-user"></i><br>ProFile</a>
+            <a href="@Url.Action("GioHang", "Home")"><i class="fa-solid fa-cart-shopping"></i><br />Giỏ Hàng</a>
         </div>
         <div class="login">
             <a href="@Url.Action("Login","Home")"><button class="btnLogin">Đăng Nhập</button></a>
@@ -72,8 +72,8 @@
             </div>
 
             <div class="actions">
-                <button class="buy">Buy Now</button>
-                <button class="cart">Add to Cart</button>
+                <a href="@Url.Action("GiaoHang","Home")"<button class="buy">Buy Now</button></a>
+                <a href="@Url.Action("GioHang","Home")"><button class="cart">Add to Cart</button></a>
             </div>
             <div class="product-description">
                 <h2>Bài Viết Sản Phẩm</h2>

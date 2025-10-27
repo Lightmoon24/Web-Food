@@ -1,21 +1,21 @@
-﻿.login-container {
+﻿.register-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 85vh;
     background-color: #f9f9f9;
 }
 
-.login-box {
-    width: 380px;
+.register-box {
+    width: 420px;
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-    padding: 35px 30px;
+    padding: 40px 35px;
     text-align: center;
 }
 
-.login-title {
+.register-title {
     color: #e63946;
     margin-bottom: 25px;
     font-size: 26px;
@@ -46,7 +46,7 @@
             border-color: #e63946;
         }
 
-.btn-login {
+.btn-register {
     width: 100%;
     background-color: #e63946;
     color: white;
@@ -59,20 +59,20 @@
     transition: background-color 0.2s ease-in-out;
 }
 
-    .btn-login:hover {
+    .btn-register:hover {
         background-color: #d62828;
     }
 
-.login-footer {
+.register-footer {
     margin-top: 20px;
     color: #555;
 }
 
-    .login-footer a {
+    .register-footer a {
         color: #e63946;
         text-decoration: none;
     }
 
-        .login-footer a:hover {
+        .register-footer a:hover {
             text-decoration: underline;
         }
