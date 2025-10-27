@@ -128,6 +128,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore.txt" />
+    <Content Include="Content\BE\AddToCart.js" />
+    <Content Include="Content\BE\ChiTietSanPham.js" />
     <Content Include="Content\BE\GioHang.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -152,6 +154,7 @@
     <Content Include="Content\CSS\LichSuMuaHang.css" />
     <Content Include="Content\CSS\Login.css" />
     <Content Include="Content\CSS\MasterLayOut.css" />
+    <Content Include="Content\GioHang.js" />
     <Content Include="Content\HomePage.css" />
     <Content Include="Content\images\Ganyu.gif" />
     <Content Include="Content\images\hinh01.png" />

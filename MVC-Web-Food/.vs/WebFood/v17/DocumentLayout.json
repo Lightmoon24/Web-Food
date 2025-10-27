@@ -1,9 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\web Design\\MVC-Web-Food\\WebFood\\WebFood\\",
+  "WorkspaceRootPath": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\admin\\desktop\\web design\\mvc-web-food\\webfood\\webfood\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\content\\be\\addtocart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\be\\addtocart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\content\\be\\giohang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\be\\giohang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\content\\be\\chitietsanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\be\\chitietsanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -14,24 +30,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 16,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChiTietSanPham.js",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\ChiTietSanPham.js",
+              "RelativeDocumentMoniker": "Content\\BE\\ChiTietSanPham.js",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\ChiTietSanPham.js",
+              "RelativeToolTip": "Content\\BE\\ChiTietSanPham.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-26T15:28:20.241Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChiTietSanPham.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\web Design\\MVC-Web-Food\\WebFood\\WebFood\\Views\\Home\\ChiTietSanPham.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ChiTietSanPham.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\web Design\\MVC-Web-Food\\WebFood\\WebFood\\Views\\Home\\ChiTietSanPham.cshtml",
-              "RelativeToolTip": "Views\\Home\\ChiTietSanPham.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T13:22:18.326Z",
+              "Title": "AddToCart.js",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\AddToCart.js",
+              "RelativeDocumentMoniker": "Content\\BE\\AddToCart.js",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\AddToCart.js",
+              "RelativeToolTip": "Content\\BE\\AddToCart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-26T15:11:41.272Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GioHang.js",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\GioHang.js",
+              "RelativeDocumentMoniker": "Content\\BE\\GioHang.js",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\GioHang.js",
+              "RelativeToolTip": "Content\\BE\\GioHang.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-26T14:52:35.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\GioHang.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\GioHang.cshtml",
+              "RelativeToolTip": "Views\\Home\\GioHang.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAFsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T06:19:20.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChiTietSanPham.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\ChiTietSanPham.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ChiTietSanPham.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\ChiTietSanPham.cshtml",
+              "RelativeToolTip": "Views\\Home\\ChiTietSanPham.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwEkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T13:22:18.326Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 534,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

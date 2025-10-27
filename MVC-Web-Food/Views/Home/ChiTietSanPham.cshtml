@@ -12,7 +12,7 @@
 <header>
     <div class="Header">
         <div>
-            <a href="@Url.Action("HomePage", "Home")"><img class="logo" src="~/Content/images/logo.png"</a>
+            <a href="@Url.Action("HomePage", "Home")"><img  class="logo" src="~/Content/images/logo.png"/> </a> 
         </div>
         <div class="Search-container">
             <label for="search"></label>
@@ -72,8 +72,25 @@
             </div>
 
             <div class="actions">
-                <button class="buy">Buy Now</button>
-                <button class="cart">Add to Cart</button>
+                <button class="buy"
+                        onclick="buyNow({
+            id: 1,
+            name: 'Râu mực nhập khẩu 300g + Hành tây 300g',
+            price: 53000,
+            image: 'https://i.pinimg.com/736x/59/8d/64/598d64ac41b646b19f407f3f816a8eb3.jpg'
+                                 })">
+                    Buy Now
+                </button>
+
+                <button class="cart"
+                        onclick="addToCart({
+            id: 1,
+            name: 'Râu mực nhập khẩu 300g + Hành tây 300g',
+            price: 53000,
+            image: 'https://i.pinimg.com/736x/59/8d/64/598d64ac41b646b19f407f3f816a8eb3.jpg'
+                                   })">
+                    Add to Cart
+                </button>
             </div>
             <div class="product-description">
                 <h2>Bài Viết Sản Phẩm</h2>
@@ -96,12 +113,16 @@
             </div>
         </div>
     </div>
+    <button class="buy" onclick="window.location.href='@Url.Action("GioHang","Home")'">Buy Now</button>
+    <button class="cart" onclick="window.location.href='@Url.Action("GioHang","Home")'">Add to Cart</button>
+    <script src="@Url.Content("~/Content/BE/AddToCart.js")"></script>
+
 </body>
 <footer>
     <div class="Footer">
         <div class="Footer-item">
             <h3>
-                Thông Tin Liên Hệ</h4>
+                Thông Tin Liên Hệ</h3>
                 <p>SĐT:0357005794</p>
                 <i class="fab fa-facebook"></i> <a class="FooterLink"
                                                    href="https://www.facebook.com/sieu.quay.790263">Siêu Quậy</a>
