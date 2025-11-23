@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<!DOCTYPE html>
 <html>
 <head>
@@ -35,5 +36,88 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+=======
+﻿@*
+    Đây là Layout chính dùng cho toàn bộ website.
+    Các trang khác (Home, Login, Product, v.v.) sẽ kế thừa layout này bằng:
+    @{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+*@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My Website</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- CSS chung -->
+    <link rel="stylesheet" href="~/Content/CSS/MasterLayOut.css" />
+
+    <!-- CSS riêng cho từng View -->
+    @RenderSection("Styles", required: false)
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="Header">
+            <div>
+                <a href="@Url.Action("HomePage", "Home")">
+                    <img class="logo" src="~/Content/images/logo.png" />
+                </a>
+            </div>
+
+            <div class="Search-container">
+                <input class="SearchBar" type="text" id="search" name="search" placeholder="Search" />
+            </div>
+
+            <div class="mini-bar">
+                <a href="@Url.Action("LichSuMuaHang", "Home")"><i class="fa-solid fa-bell"></i><br />Thông Báo</a>
+                <a href="@Url.Action("HomePage", "Home")"><i class="fa-solid fa-house"></i><br />Home</a>
+                <a href="@Url.Action("GioHang", "Home")"><i class="fa-solid fa-cart-shopping"></i><br />Giỏ Hàng</a>
+            </div>
+
+            <div class="login">
+                <a href="@Url.Action("Login", "Home")"><button class="btnLogin">Đăng Nhập</button></a>
+                <a href="@Url.Action("Login", "Home")"><button class="btnSignUp">Đăng Ký</button></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Nội dung động của từng trang sẽ hiển thị ở đây -->
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="Footer">
+            <div class="Footer-item">
+                <h3>Thông Tin Liên Hệ</h3>
+                <p>SĐT: 0357005794</p>
+                <i class="fab fa-facebook"></i>
+                <a class="FooterLink" href="https://www.facebook.com/sieu.quay.790263">Siêu Quậy</a>
+            </div>
+            <div class="Footer-item">
+                <h3>Địa Chỉ:</h3>
+                <p>CN1: 36/36 H.Thường Xuân, Thanh Hóa</p>
+                <p>CN2: 13/44 H.Thường Xuân, Thanh Hóa</p>
+            </div>
+            <div class="Footer-item">
+                <h3>Người Sở Hữu Cổ Phần:</h3>
+                <p>Phạm Thành Đức</p>
+                <p>Trần Minh Tuyên</p>
+                <p>Phạm Quang Minh</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS riêng cho từng View -->
+    @RenderSection("Scripts", required: false)
+>>>>>>> Duc
 </body>
 </html>

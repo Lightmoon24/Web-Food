@@ -180,6 +180,16 @@ body {
 .buy {
     background: #d32f2f;
     color: #fff;
+<<<<<<< HEAD
+=======
+    border-radius:6px;
+    justify-content:center;
+    text-decoration:none;
+    align-content:center;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:16px;
+>>>>>>> Duc
 }
 
     .buy:hover {
@@ -195,6 +205,7 @@ body {
         background: #e64a19;
     }
 
+<<<<<<< HEAD
 /* Responsive */
 @media(max-width: 768px) {
     .container {
@@ -209,3 +220,5 @@ body {
             width: 100%;
         }
 }
+=======
+>>>>>>> Duc

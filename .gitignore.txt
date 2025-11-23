@@ -1,0 +1,59 @@
+############################
+# Visual Studio
+############################
+.vs/
+*.user
+*.suo
+*.cache
+*.dtbcache.json
+
+# Copilot cache
+**/CopilotIndices/
+
+############################
+# Build directories
+############################
+bin/
+obj/
+
+############################
+# Build output files
+############################
+*.dll
+*.pdb
+*.exe
+*.mdb
+*.cache
+*.log
+
+############################
+# ASP.NET Temporary Files
+############################
+**/App_Data/Temp/
+**/App_Data/Logs/
+
+############################
+# NuGet packages
+############################
+packages/
+*.nupkg
+project.lock.json
+
+############################
+# IIS Express
+############################
+iisexpress/
+
+############################
+# Rider / ReSharper / VS Extensions
+############################
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+############################
+# Misc
+############################
+*.tmp
+*.bak
+*.old

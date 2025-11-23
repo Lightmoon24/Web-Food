@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -42,3 +43,60 @@
     </script>
 </body>
 </html>
+=======
+﻿@{
+    ViewBag.Title = "Đăng Nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/Content/CSS/Login.css" />
+}
+
+<div class="login-container">
+    <div class="login-box">
+        <h2 class="login-title">Đăng Nhập</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" id="username" name="username" placeholder="Nhập tên đăng nhập" required />
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required />
+            </div>
+
+            <button type="submit" class="btn-login">Đăng nhập</button>
+
+            <p class="login-footer">
+                Chưa có tài khoản? <a href="@Url.Action("Register","Home")">Đăng ký ngay</a>
+            </p>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const username = document.getElementById("username").value.trim();
+            const password = document.getElementById("password").value.trim();
+
+            if (!username || !password) {
+                alert("Vui lòng nhập đầy đủ thông tin!");
+                return;
+            }
+
+            // Giả lập đăng nhập (demo)
+            if (username === "admin" && password === "123") {
+                alert("Đăng nhập thành công!");
+                window.location.href = "/Home/Index";
+            } else {
+                alert("Sai tên đăng nhập hoặc mật khẩu!");
+            }
+        });
+    </script>
+}
+>>>>>>> Duc

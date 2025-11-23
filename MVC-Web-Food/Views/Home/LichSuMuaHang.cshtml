@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<!DOCTYPE html>
 <html>
 
@@ -93,3 +94,68 @@
     </div>
 </footer>
 </html>
+=======
+﻿@{
+    ViewBag.Title = "Lịch Sử Mua Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/Content/CSS/LichSuMuaHang.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+}
+
+<div class="history-container">
+
+    <!-- Thanh bên trái -->
+    <div class="account-sidebar">
+        <div class="user-info">
+            <img src="~/Content/images/avatar-default.png" class="user-avatar" alt="Avatar" />
+            <h3>LightMoon24</h3>
+        </div>
+        <ul class="account-menu">
+            <li><a href="@Url.Action("GiaoHang", "Home")" ><i class="fa-solid fa-user"></i> Hồ Sơ</a></li>
+            <li><a href="@Url.Action("GiaoHang", "Home")"><i class="fa-solid fa-map-location-dot"></i> Địa Chỉ & SĐT</a></li>
+            <li><a href="@Url.Action("LichSuMuaHang", "Home")" class="active"><i class="fa-solid fa-clock-rotate-left"></i> Lịch Sử Mua Hàng</a></li>
+        </ul>
+    </div>
+
+    <!-- Nội dung chính -->
+    <div class="history-content">
+        <h2><i class="fa-solid fa-box-open"></i> Món Đã Đặt</h2>
+
+        <div class="order-card">
+            <img src="~/Content/images/hinh01.png" alt="Thịt Bò Xào Rau Má" />
+            <div class="order-info">
+                <h4>Thịt Bò Xào Rau Má</h4>
+                <p>Giá: 36.000đ</p>
+                <p class="status delivered">Trạng Thái: Đã Giao</p>
+                <p>Món ăn quen thuộc của vương quốc Raumania.</p>
+            </div>
+            <a href="@Url.Action("ChiTietSanPham", "Home")" class="btn-detail">Chi Tiết</a>
+        </div>
+
+        <div class="order-card">
+            <img src="~/Content/images/tra-sua.png" alt="Sữa Dừa" />
+            <div class="order-info">
+                <h4>Sữa Dừa</h4>
+                <p>Giá: 20.000đ</p>
+                <p class="status shipping">Trạng Thái: Đang Giao</p>
+                <p>Sữa tươi được chiết xuất từ những trái dừa mát lạnh miền Tây.</p>
+            </div>
+            <a href="@Url.Action("ChiTietSanPham", "Home")" class="btn-detail">Chi Tiết</a>
+        </div>
+
+        <div class="order-card">
+            <img src="~/Content/images/banh-mi.png" alt="Bánh Mì Trứng" />
+            <div class="order-info">
+                <h4>Bánh Mì Trứng</h4>
+                <p>Giá: 15.000đ</p>
+                <p class="status cancelled">Trạng Thái: Đã Hủy</p>
+                <p>Bữa sáng nhanh gọn, đầy đủ năng lượng cho ngày mới.</p>
+            </div>
+            <a href="@Url.Action("ChiTietSanPham", "Home")" class="btn-detail">Chi Tiết</a>
+        </div>
+    </div>
+</div>
+>>>>>>> Duc

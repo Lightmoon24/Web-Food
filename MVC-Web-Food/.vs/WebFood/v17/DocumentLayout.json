@@ -3,24 +3,86 @@
   "WorkspaceRootPath": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\content\\be\\addtocart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\be\\addtocart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\content\\be\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\be\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\content\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\content\\css\\lichsumuahang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\css\\lichsumuahang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\content\\css\\giaohang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\css\\giaohang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\content\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\content\\css\\chitietsanpham.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\css\\chitietsanpham.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+>>>>>>> Duc
     },
     {
       "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\content\\be\\giohang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\be\\giohang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\content\\be\\chitietsanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\be\\chitietsanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\views\\home\\lichsumuahang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\lichsumuahang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\views\\home\\giaohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\giaohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> Duc
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +91,13 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< HEAD
           "DockedWidth": 16,
           "SelectedChildIndex": 4,
+=======
+          "DockedWidth": 20,
+          "SelectedChildIndex": 7,
+>>>>>>> Duc
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,6 +113,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "ChiTietSanPham.js",
               "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\ChiTietSanPham.js",
@@ -67,11 +135,62 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-10-26T15:11:41.272Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "Register.css",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\Register.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\Register.css",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\Register.css",
+              "RelativeToolTip": "Content\\CSS\\Register.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T07:48:21.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T07:47:45.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T07:46:39.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\Login.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\Login.css",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\Login.css",
+              "RelativeToolTip": "Content\\CSS\\Login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T07:37:37.422Z",
+>>>>>>> Duc
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "GioHang.js",
               "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\GioHang.js",
               "RelativeDocumentMoniker": "Content\\BE\\GioHang.js",
@@ -96,24 +215,183 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T07:36:52.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChiTietSanPham.css",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\ChiTietSanPham.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\ChiTietSanPham.css",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\ChiTietSanPham.css",
+              "RelativeToolTip": "Content\\CSS\\ChiTietSanPham.css",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAYwLwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T06:52:46.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> Duc
               "Title": "ChiTietSanPham.cshtml",
               "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\ChiTietSanPham.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ChiTietSanPham.cshtml",
               "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\ChiTietSanPham.cshtml",
               "RelativeToolTip": "Views\\Home\\ChiTietSanPham.cshtml",
+<<<<<<< HEAD
               "ViewState": "AgIAABwAAAAAAAAAAAAuwEkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-13T13:22:18.326Z"
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T06:48:14.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\GioHang.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\GioHang.cshtml",
+              "RelativeToolTip": "Views\\Home\\GioHang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T06:39:33.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LichSuMuaHang.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\LichSuMuaHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\LichSuMuaHang.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\LichSuMuaHang.cshtml",
+              "RelativeToolTip": "Views\\Home\\LichSuMuaHang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T17:02:05.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Giaohang.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\Giaohang.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Giaohang.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\Giaohang.cshtml",
+              "RelativeToolTip": "Views\\Home\\Giaohang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T16:55:22.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T09:26:50.96Z",
+              "EditorCaption": ""
+>>>>>>> Duc
             }
           ]
         },
         {
+<<<<<<< HEAD
           "DockedWidth": 534,
           "SelectedChildIndex": -1,
+=======
+          "DockedWidth": 12,
+          "SelectedChildIndex": 1,
+>>>>>>> Duc
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+<<<<<<< HEAD
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\HomePage.cshtml",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\HomePage.cshtml",
+              "RelativeToolTip": "Views\\Home\\HomePage.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwIYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T08:01:14.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LichSuMuaHang.css",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\LichSuMuaHang.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\LichSuMuaHang.css",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\LichSuMuaHang.css",
+              "RelativeToolTip": "Content\\CSS\\LichSuMuaHang.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-26T17:04:11.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "homepage.js",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\homepage.js",
+              "RelativeDocumentMoniker": "Content\\BE\\homepage.js",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\homepage.js",
+              "RelativeToolTip": "Content\\BE\\homepage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-26T09:02:29.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GiaoHang.css",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\GiaoHang.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\GiaoHang.css",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\GiaoHang.css",
+              "RelativeToolTip": "Content\\CSS\\GiaoHang.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-26T16:57:55.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GioHang.js",
+              "DocumentMoniker": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\GioHang.js",
+              "RelativeDocumentMoniker": "Content\\BE\\GioHang.js",
+              "ToolTip": "C:\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\BE\\GioHang.js",
+              "RelativeToolTip": "Content\\BE\\GioHang.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-26T09:00:41.782Z",
+              "EditorCaption": ""
+>>>>>>> Duc
             }
           ]
         }

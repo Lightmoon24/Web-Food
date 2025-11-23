@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<!DOCTYPE html>
 <html lang="vi">
 
@@ -134,3 +135,117 @@
 </footer>
 
 </html>
+=======
+﻿@{
+    ViewBag.Title = "Giao Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/Content/CSS/GiaoHang.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+}
+
+<div class="delivery-container">
+
+    <!-- Thông Tin Người Nhận -->
+    <div class="info-section">
+        <h3><i class="fa-solid fa-user"></i> Thông Tin Người Nhận</h3>
+        <hr />
+        <div class="form-group">
+            <label>Họ và Tên:</label>
+            <input type="text" placeholder="Nhập họ và tên" />
+        </div>
+        <div class="form-group">
+            <label>Số Điện Thoại:</label>
+            <input type="text" placeholder="Nhập số điện thoại" />
+        </div>
+    </div>
+
+    <!-- Địa Chỉ Nhận Hàng -->
+    <div class="info-section">
+        <h3><i class="fa-solid fa-location-dot"></i> Địa Chỉ Nhận Hàng</h3>
+        <hr />
+        <div class="form-group">
+            <label>Số nhà/hẻm, tên đường:</label>
+            <input type="text" placeholder="VD: 12 Nguyễn Huệ" />
+        </div>
+        <div class="form-group">
+            <label>Phường/Xã:</label>
+            <input type="text" placeholder="VD: Phường 3" />
+        </div>
+        <div class="form-group">
+            <label>Quận/Huyện:</label>
+            <input type="text" placeholder="VD: Quận 1" />
+        </div>
+        <div class="form-group">
+            <label>Tỉnh/Thành Phố:</label>
+            <input type="text" placeholder="VD: TP. Hồ Chí Minh" />
+        </div>
+
+        <div class="radio-group">
+            <h4>Nơi Giao Hàng</h4>
+            <label>
+                <input type="radio" name="addressType" value="office" />
+                <i class="fa-solid fa-building"></i> Công Ty
+            </label>
+            <label>
+                <input type="radio" name="addressType" value="home" />
+                <i class="fa-solid fa-house"></i> Nhà Riêng
+            </label>
+        </div>
+
+        <div class="save-btn">
+            <button type="button">Lưu Thông Tin</button>
+        </div>
+    </div>
+
+    <!-- Phương Thức Thanh Toán -->
+    <div class="info-section">
+        <h3><i class="fa-solid fa-money-bill-wave"></i> Phương Thức Thanh Toán</h3>
+        <hr />
+
+        <div class="payment-option">
+            <label>
+                <input type="radio" name="payment" checked />
+                <div class="option-card">
+                    <h4>Tiền Mặt <i class="fa-solid fa-hand-holding-dollar"></i></h4>
+                    <p>Thanh toán khi nhận hàng</p>
+                </div>
+            </label>
+
+            <label>
+                <input type="radio" name="payment" />
+                <div class="option-card">
+                    <h4>Ngân Hàng <i class="fa-solid fa-landmark"></i></h4>
+                    <p>Thanh toán trước</p>
+                </div>
+            </label>
+        </div>
+
+        <div class="voucher">
+            <input type="text" placeholder="Nhập mã giảm giá (nếu có)" />
+            <button class="btn-apply">Áp Dụng</button>
+        </div>
+
+        <div class="order-summary">
+            <div class="summary-item">
+                <span>Tổng món ăn (1 món):</span>
+                <span class="price">360,000₫</span>
+            </div>
+            <div class="summary-item">
+                <span>Phí giao hàng:</span>
+                <span class="price">15,000₫</span>
+            </div>
+            <hr />
+            <div class="summary-item total">
+                <span>Thành tiền:</span>
+                <span class="price">375,000₫</span>
+            </div>
+
+            <button class="btn-buy">Xác Nhận Mua</button>
+        </div>
+    </div>
+
+</div>
+>>>>>>> Duc

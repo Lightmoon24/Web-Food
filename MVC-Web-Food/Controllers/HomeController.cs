@@ -54,5 +54,12 @@ namespace WebFood.Controllers
         {
             return View();
         }
+<<<<<<< HEAD
+=======
+        public ActionResult Register()
+        {
+            return View();
+        }
+>>>>>>> Duc
     }
 }

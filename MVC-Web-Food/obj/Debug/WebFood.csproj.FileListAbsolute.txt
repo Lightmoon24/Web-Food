@@ -156,6 +156,167 @@ C:\Users\Administrator\Desktop\Web-Food\MVC-Web-Food\obj\Debug\WebFood.csproj.Co
 C:\Users\Administrator\Desktop\Web-Food\MVC-Web-Food\obj\Debug\WebFood.csproj.Up2Date
 C:\Users\Administrator\Desktop\Web-Food\MVC-Web-Food\obj\Debug\WebFood.dll
 C:\Users\Administrator\Desktop\Web-Food\MVC-Web-Food\obj\Debug\WebFood.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\WebFood.dll.config
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\WebFood.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\WebFood.pdb
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\csc.rsp
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\csi.exe
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\csi.rsp
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Net.Http.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\obj\Debug\WebFood.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\obj\Debug\WebFood.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\obj\Debug\WebFood.csproj.Up2Date
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\obj\Debug\WebFood.dll
+C:\Users\Administrator\Desktop\webds\Web-Food\MVC-Web-Food\obj\Debug\WebFood.pdb
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\WebFood.dll.config
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\WebFood.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\WebFood.pdb
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\WebGrease.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\obj\Debug\WebFood.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\obj\Debug\WebFood.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\obj\Debug\WebFood.csproj.Up2Date
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\obj\Debug\WebFood.dll
+C:\Users\Admin\Desktop\web Design\Web-Food\Web-Food\MVC-Web-Food\obj\Debug\WebFood.pdb
+>>>>>>> Duc
 C:\Đồ Án\Web-Food\MVC-Web-Food\bin\WebFood.dll.config
 C:\Đồ Án\Web-Food\MVC-Web-Food\bin\WebFood.dll
 C:\Đồ Án\Web-Food\MVC-Web-Food\bin\WebFood.pdb
