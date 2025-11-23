@@ -2,11 +2,7 @@
     margin: auto;
     display: flex;
 }
-
-<<<<<<< HEAD
-=======
 /* ----------------- CONTENT LAYOUT ----------------- */
->>>>>>> Duc
 .content {
     position: fixed;
     top: 10%;
@@ -15,35 +11,6 @@
     width: 80%;
     height: 80%;
     display: flex;
-<<<<<<< HEAD
-    padding: 0;
-}
-
-.Menu {
-    position: fixed;
-    height: 70px;
-    min-width: 100%;
-    width: auto;
-    background-color: whitesmoke;
-    border: solid black 1px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-    align-items: center;
-}
-
-.MainContent {
-    display: flex;
-    align-items: top;
-    margin-top: 70px;
-    width: 100%;
-    min-height: 90%;
-    background-color: white;
-    border: solid black 1px;
-    overflow-y: scroll;
-}
-
-=======
     flex-direction: column;
     padding: 0;
 }
@@ -114,22 +81,15 @@
     }
 
 /* ----------------- LEFT BAR ----------------- */
->>>>>>> Duc
 .leftBar {
     position: fixed;
     top: 10%;
     height: 80%;
     width: 20%;
-<<<<<<< HEAD
-    margin: 1px auto;
-    left: 0;
-    overflow-y: scroll;
-=======
     left: 0;
     overflow-y: auto;
     border-right: 1px solid #ccc;
     background-color: #fafafa;
->>>>>>> Duc
 }
 
 h4 {
@@ -162,114 +122,6 @@ hr {
     padding: 0;
     border: 1px solid gray;
 }
-
-<<<<<<< HEAD
-.menu-bar {
-    background: whitesmoke;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between; /* đẩy nút ra 2 bên */
-    align-items: center;
-    border: 1px solid black;
-}
-
-.menu-text {
-    font-weight: bold;
-}
-
-.nav-btnl, .nav-btnr {
-    font-size: larger;
-    font-family: 'Inter', sans-serif;
-    border: none;
-    height: 60px;
-    padding: 6px 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-    .nav-btnl:hover, .nav-btnr:hover {
-        background: black;
-        color: white;
-        transition: 0.36 ease;
-    }
-
-.nav-btnr {
-    position: fixed;
-    right: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-
-.menu-text {
-    margin-right: 30px;
-}
-
-.menu-img {
-    align-items: top;
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
-    margin-left: 5px;
-}
-
-.btnMenu {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-    .btnMenu:hover {
-        background-color: gray;
-        border-radius: 15px;
-        transition: 0.7s ease;
-    }
-
-.MainImgDiv {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    padding-bottom: 20px;
-    margin: 0;
-    border-radius: 10px 10px 0 0;
-}
-
-.MainTextDiv {
-    margin: 20px;
-    border-radius: 10px;
-    border: solid black 1px;
-    width: 200px;
-    max-height: 300px;
-    height: max-content;
-    padding: 0;
-}
-
-.FoodName {
-    margin: 0px;
-    text-align: left;
-    font-size: 20px;
-    ;
-}
-
-.order {
-    text-align: center;
-    background-color: tomato;
-    color: white;
-    width: 70%;
-    margin-left: 12%;
-    margin-right: 15%;
-    border-radius: 10px;
-    height: 20px;
-    cursor: pointer;
-    padding: 6px;
-    transition: 1s ease;
-}
-
-    .order::after {
-        content: "ODER NOW";
-        text-decoration: none;
-        size: 50px;
-=======
 /* ----------------- MAIN CONTENT ----------------- */
 .MainContent {
     display: grid;
@@ -337,7 +189,6 @@ hr {
 
     .order::after {
         content: "ORDER NOW";
->>>>>>> Duc
     }
 
     .order:hover {
@@ -345,16 +196,6 @@ hr {
     }
 
         .order:hover::after {
-<<<<<<< HEAD
-            content: "Nya~~ Nya~~";
-            transition: 1s ease;
-            text-decoration: none;
-        }
-
-a {
-    text-decoration: none;
-}
-=======
             content: "Nya~ Nya~";
         }
 
@@ -373,4 +214,3 @@ a {
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         padding: 10px;
     }
->>>>>>> Duc
