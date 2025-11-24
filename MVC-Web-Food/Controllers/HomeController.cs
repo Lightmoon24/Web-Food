@@ -19,7 +19,6 @@ namespace WebFood.Controllers
 
             return View();
         }
-
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
@@ -50,16 +49,5 @@ namespace WebFood.Controllers
         {
             return View();
         }
-        public ActionResult MasterLayOut()
-        {
-            return View();
-        }
-<<<<<<< HEAD
-=======
-        public ActionResult Register()
-        {
-            return View();
-        }
->>>>>>> Duc
     }
 }

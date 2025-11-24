@@ -128,14 +128,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore.txt" />
-<<<<<<< HEAD
-    <Content Include="Content\BE\AddToCart.js" />
-    <Content Include="Content\BE\ChiTietSanPham.js" />
-    <Content Include="Content\BE\GioHang.js" />
-=======
     <Content Include="Content\BE\GioHang.js" />
     <Content Include="Content\BE\homepage.js" />
->>>>>>> Duc
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -159,17 +153,8 @@
     <Content Include="Content\CSS\LichSuMuaHang.css" />
     <Content Include="Content\CSS\Login.css" />
     <Content Include="Content\CSS\MasterLayOut.css" />
-<<<<<<< HEAD
-    <Content Include="Content\GioHang.js" />
-=======
     <Content Include="Content\CSS\Register.css" />
->>>>>>> Duc
     <Content Include="Content\HomePage.css" />
-    <Content Include="Content\images\Ganyu.gif" />
-    <Content Include="Content\images\hinh01.png" />
-    <Content Include="Content\images\logo.png" />
-    <Content Include="Content\images\menu1.png" />
-    <Content Include="Content\images\menu2.png" />
     <Content Include="favicon.ico" />
     <Content Include="gitignore.txt" />
     <Content Include="Global.asax" />
@@ -180,8 +165,6 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Content\images\banner.webp" />
-    <Content Include="Content\images\raumaxaotoi" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -213,11 +196,7 @@
     <Content Include="Views\Home\GioHang.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\LichSuMuaHang.cshtml" />
-    <Content Include="Views\Home\MasterLayOut.cshtml" />
-<<<<<<< HEAD
-=======
     <Content Include="Views\Home\Register.cshtml" />
->>>>>>> Duc
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
