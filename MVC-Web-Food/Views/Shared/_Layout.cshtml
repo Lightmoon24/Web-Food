@@ -12,6 +12,12 @@
         isActive = (bool)Session["IsActive"];
     }
     ViewBag.IsActive = isActive;
+    bool isAdmin = true;
+    if (Session["IsActive"] != null)
+    {
+        isAdmin = (bool)Session["IsAdmin"];
+    }
+    ViewBag.IsAdmin = isAdmin;
 }
 <!DOCTYPE html>
 <html lang="vi">
@@ -59,10 +65,14 @@
             }
             else
             {
-                <div style="display: flex; justify-content: center; align-items: center;">
-                    <!-- Gọi action Logout để cập nhật DB và xóa session -->
-                    <a href="@Url.Action("Logout", "User")"><button class="btnLogin">Đăng Xuất</button></a>
-                </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <!-- Gọi action Logout để cập nhật DB và xóa session -->
+            @if (ViewBag.IsAdmin)
+            {
+                <a href="@Url.Action("Logout", "User")"><button class="btnLogin">AdminUI</button></a>
+            }
+            <a href="@Url.Action("Logout", "User")"><button class="btnLogin">Đăng Xuất</button></a>
+        </div>
             }
 
 

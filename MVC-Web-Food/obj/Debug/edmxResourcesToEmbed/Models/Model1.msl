@@ -2,25 +2,26 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="WebFoodModelStoreContainer" CdmEntityContainer="WebFoodEntities1">
     <EntitySetMapping Name="Users">
-      <EntityTypeMapping TypeName="WebFoodModel.Users">
+      <EntityTypeMapping TypeName="IsTypeOf(WebFoodModel.Users)">
         <MappingFragment StoreEntitySet="Users">
-          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
           <ScalarProperty Name="UserID" ColumnName="UserID" />
           <ScalarProperty Name="Username" ColumnName="Username" />
           <ScalarProperty Name="Password" ColumnName="Password" />
           <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
           <ScalarProperty Name="gmail" ColumnName="gmail" />
           <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="C__MigrationHistory">
-      <EntityTypeMapping TypeName="WebFoodModel.C__MigrationHistory">
-        <MappingFragment StoreEntitySet="__MigrationHistory">
-          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
-          <ScalarProperty Name="Model" ColumnName="Model" />
-          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+      <EntityTypeMapping TypeName="IsTypeOf(WebFoodModel.C__MigrationHistory)">
+        <MappingFragment StoreEntitySet="C__MigrationHistory">
           <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

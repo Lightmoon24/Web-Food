@@ -180,8 +180,6 @@ body {
 .buy {
     background: #d32f2f;
     color: #fff;
-<<<<<<< HEAD
-=======
     border-radius:6px;
     justify-content:center;
     text-decoration:none;
@@ -189,8 +187,6 @@ body {
     padding-left:10px;
     padding-right:10px;
     font-size:16px;
->>>>>>> Duc
-}
 
     .buy:hover {
         background: #b71c1c;
@@ -205,7 +201,6 @@ body {
         background: #e64a19;
     }
 
-<<<<<<< HEAD
 /* Responsive */
 @media(max-width: 768px) {
     .container {
@@ -220,5 +215,4 @@ body {
             width: 100%;
         }
 }
-=======
->>>>>>> Duc
+

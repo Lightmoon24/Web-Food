@@ -21,5 +21,6 @@ namespace WebFood.Models
         public string gmail { get; set; }
         public string HoTen { get; set; }
         public Nullable<bool> IsActive { get; set; }
+        public bool IsAdmin { get; set; }
     }
 }

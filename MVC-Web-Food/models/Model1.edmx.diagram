@@ -6,7 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="d7d3ed5a411c4464b636529ee909421b" Name="Diagram1">
         <EntityTypeShape EntityType="WebFoodModel.Users" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="WebFoodModel.C__MigrationHistory" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="WebFoodModel.C__MigrationHistory" Width="1.5" PointX="2.125" PointY="0.5" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

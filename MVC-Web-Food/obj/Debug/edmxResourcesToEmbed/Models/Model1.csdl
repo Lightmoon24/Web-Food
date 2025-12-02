@@ -11,6 +11,7 @@
     <Property Name="gmail" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="HoTen" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsAdmin" Type="Boolean" Nullable="false" />
   </EntityType>
   <EntityContainer Name="WebFoodEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Users" EntityType="Self.Users" />

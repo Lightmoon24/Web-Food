@@ -45,7 +45,7 @@ namespace WebFood.Controllers
 
                     user.IsActive = true;
                     db.SaveChanges();
-
+                    Session["IsAdmin"] = user.IsAdmin;
                     Session["IsActive"] = user.IsActive;
                     return RedirectToAction("HomePage", "Home");
                 }

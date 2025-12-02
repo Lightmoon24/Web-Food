@@ -1,15 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="WebFoodModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="__MigrationHistory">
-    <Key>
-      <PropertyRef Name="MigrationId" />
-      <PropertyRef Name="ContextKey" />
-    </Key>
-    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
-    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
-    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
-    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
-  </EntityType>
+<Schema Namespace="WebFoodModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="WebFoodModelStoreContainer">
+    <EntitySet Name="Users" EntityType="WebFoodModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="C__MigrationHistory" EntityType="WebFoodModel.Store.C__MigrationHistory" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
   <EntityType Name="Users">
     <Key>
       <PropertyRef Name="UserID" />
@@ -18,12 +12,19 @@
     <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
     <Property Name="CreatedAt" Type="datetime" Nullable="false" />
-    <Property Name="gmail" Type="nvarchar" MaxLength="255" />
-    <Property Name="HoTen" Type="nvarchar" MaxLength="255" />
-    <Property Name="IsActive" Type="bit" />
+    <Property Name="gmail" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="HoTen" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" Nullable="true" />
+    <Property Name="IsAdmin" Type="bit" Nullable="false" />
   </EntityType>
-  <EntityContainer Name="WebFoodModelStoreContainer">
-    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
-  </EntityContainer>
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="ContextKey" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" Nullable="false" MaxLength="32" />
+  </EntityType>
 </Schema>
