@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<WebFood.Models.FoodItem>
+@{
     ViewBag.Title = "Trang Chủ";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -46,110 +47,15 @@
 
     <!-- Nội dung chính -->
     <div class="MainContent">
-
-        <!-- 🔥 KHUYẾN MÃI -->
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="khuyenmai">
-            <img class="MainImgDiv" src="~/Content/images/promo1.png" alt="Combo Gà + Pepsi" />
-            <p class="FoodName">Món: Combo Gà + Pepsi (Giảm 20%)</p>
-            <p class="FoodName">Giá: 56.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="khuyenmai">
-            <img class="MainImgDiv" src="~/Content/images/promo2.png" alt="Trà Sữa + Bánh Flan" />
-            <p class="FoodName">Món: Trà Sữa + Bánh Flan (Mua 1 Tặng 1)</p>
-            <p class="FoodName">Giá: 40.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <!-- ☕ ĐỒ UỐNG -->
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="douong">
-            <img class="MainImgDiv" src="~/Content/images/tra-sua.png" alt="Trà Sữa Trân Châu" />
-            <p class="FoodName">Món: Trà Sữa Trân Châu</p>
-            <p class="FoodName">Giá: 25.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="douong">
-            <img class="MainImgDiv" src="~/Content/images/cf-sua.png" alt="Cà Phê Sữa Đá" />
-            <p class="FoodName">Món: Cà Phê Sữa Đá</p>
-            <p class="FoodName">Giá: 22.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="douong">
-            <img class="MainImgDiv" src="~/Content/images/nuoc-ep-cam.png" alt="Nước Ép Cam" />
-            <p class="FoodName">Món: Nước Ép Cam</p>
-            <p class="FoodName">Giá: 30.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <!-- 🍔 ĐỒ ĂN -->
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="doan">
-            <img class="MainImgDiv" src="~/Content/images/hinh01.png" alt="Rau Má Xào Bò" />
-            <p class="FoodName">Món: Rau Má Xào Bò</p>
-            <p class="FoodName">Giá: 39.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="doan">
-            <img class="MainImgDiv" src="~/Content/images/hinh02.png" alt="Mì Ý Bò Bằm" />
-            <p class="FoodName">Món: Mì Ý Bò Bằm</p>
-            <p class="FoodName">Giá: 49.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="doan">
-            <img class="MainImgDiv" src="~/Content/images/hinh03.png" alt="Cơm Chiên Hải Sản" />
-            <p class="FoodName">Món: Cơm Chiên Hải Sản</p>
-            <p class="FoodName">Giá: 45.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <!-- 🍔☕ COMBO -->
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="combo">
-            <img class="MainImgDiv" src="~/Content/images/combo1.png" alt="Combo Cơm + Trà Đào" />
-            <p class="FoodName">Món: Combo Cơm + Trà Đào</p>
-            <p class="FoodName">Giá: 59.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="combo">
-            <img class="MainImgDiv" src="~/Content/images/combo2.png" alt="Combo Mì Ý + Nước Ngọt" />
-            <p class="FoodName">Món: Combo Mì Ý + Nước Ngọt</p>
-            <p class="FoodName">Giá: 69.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <!-- 🍟 ĐỒ ĂN VẶT -->
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="doanvat">
-            <img class="MainImgDiv" src="~/Content/images/khoai-tay.png" alt="Khoai Tây Chiên" />
-            <p class="FoodName">Món: Khoai Tây Chiên</p>
-            <p class="FoodName">Giá: 25.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="doanvat">
-            <img class="MainImgDiv" src="~/Content/images/banh-mi.png" alt="Bánh Mì Pate" />
-            <p class="FoodName">Món: Bánh Mì Pate</p>
-            <p class="FoodName">Giá: 20.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <!-- 🍉 TRÁNG MIỆNG -->
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="trangmieng">
-            <img class="MainImgDiv" src="~/Content/images/che-thai.png" alt="Chè Thái" />
-            <p class="FoodName">Món: Chè Thái</p>
-            <p class="FoodName">Giá: 27.000đ</p>
-            <h5 class="order"></h5>
-        </a>
-
-        <a href="@Url.Action("ChiTietSanPham", "Home")" class="MainTextDiv" data-type="trangmieng">
-            <img class="MainImgDiv" src="~/Content/images/kem.png" alt="Kem Dừa" />
-            <p class="FoodName">Món: Kem Dừa</p>
-            <p class="FoodName">Giá: 18.000đ</p>
-            <h5 class="order"></h5>
-        </a>
+        @foreach (var item in Model)
+        {
+            <a href="@Url.Action("ChiTietSanPham", "Home", new { id = item.Id })" class="MainTextDiv" data-type="@item.Category">
+                <img class="MainImgDiv" src="~/Content/images/@item.Image" alt="@item.Name" />
+                <p class="FoodName">Món: @item.Name</p>
+                <p class="FoodName">Giá: @String.Format("{0:N0}đ", item.Price)</p>
+                <h5 class="order"></h5>
+            </a>
+        }
     </div>
 </div>
 
