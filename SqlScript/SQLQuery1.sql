@@ -1,0 +1,5 @@
+﻿ALTER TABLE [Users]
+ADD gmail NVARCHAR(255) CONSTRAINT DF_User_gmail DEFAULT 'exam@gmail.com';
+
+ALTER TABLE [Users]
+ADD HoTen NVARCHAR(255) CONSTRAINT DF_User_HoTen DEFAULT N'Nguyen Van A';
