@@ -5,6 +5,14 @@
         Layout = "~/Views/Shared/_Layout.cshtml";
     }
 *@
+@{
+    bool isActive = false;
+    if (Session["IsActive"] != null)
+    {
+        isActive = (bool)Session["IsActive"];
+    }
+    ViewBag.IsActive = isActive;
+}
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -42,12 +50,23 @@
                 <a href="@Url.Action("GioHang", "Home")"><i class="fa-solid fa-cart-shopping"></i><br />Giỏ Hàng</a>
             </div>
 
-            <div class="login">
-                <a href="@Url.Action("Login", "Home")"><button class="btnLogin">Đăng Nhập</button></a>
-                <a href="@Url.Action("Login", "Home")"><button class="btnSignUp">Đăng Ký</button></a>
-            </div>
-        </div>
-    </header>
+            @if (!(ViewBag.IsActive ?? false))
+            {
+                <div class="login">
+                    <a href="@Url.Action("Login", "Home")"><button class="btnLogin">Đăng Nhập</button></a>
+                    <a href="@Url.Action("Register", "Home")"><button class="btnSignUp">Đăng Ký</button></a>
+                </div>
+            }
+            else
+            {
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <!-- Gọi action Logout để cập nhật DB và xóa session -->
+                    <a href="@Url.Action("Logout", "User")"><button class="btnLogin">Đăng Xuất</button></a>
+                </div>
+            }
+
+
+</header>
 
     <!-- Nội dung động của từng trang sẽ hiển thị ở đây -->
     <main role="main" class="container">
