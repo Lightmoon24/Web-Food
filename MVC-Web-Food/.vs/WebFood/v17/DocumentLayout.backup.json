@@ -1,46 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\asus\\desktop\\web design\\web-food\\mvc-web-food\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\admin\\desktop\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebFood/True/SqlTable/dbo.FoodItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\admin\\desktop\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\models\\model2.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:models\\model2.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\admin\\desktop\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\admin\\desktop\\\u0111\u1ED3 \u00E1n\\web-food\\mvc-web-food\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\asus\\desktop\\web design\\web-food\\mvc-web-food\\content\\css\\masterlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\css\\masterlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\asus\\desktop\\web design\\web-food\\mvc-web-food\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\asus\\desktop\\web design\\web-food\\mvc-web-food\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\content\\css\\masterlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:content\\css\\masterlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebFood/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\asus\\desktop\\web design\\web-food\\mvc-web-food\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\asus\\desktop\\web design\\web-food\\mvc-web-food\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|c:\\users\\asus\\desktop\\web design\\web-food\\mvc-web-food\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{535930B2-477B-45E6-80D9-21B0BF497EE7}|WebFood.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\AppData\\Local\\Temp\\2p2xummo..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\AppData\\Local\\Temp\\2p2xummo..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\AppData\\Local\\Temp\\2p2xummo..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,101 +55,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 16,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MasterLayOut.css",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Content\\CSS\\MasterLayOut.css",
-              "RelativeDocumentMoniker": "Content\\CSS\\MasterLayOut.css",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Content\\CSS\\MasterLayOut.css",
-              "RelativeToolTip": "Content\\CSS\\MasterLayOut.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-02T09:57:30.101Z",
+              "Title": "dbo.FoodItems [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebFood/True/SqlTable/dbo.FoodItems.sql",
+              "ToolTip": "dbo.FoodItems [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-02T13:36:42.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\HomePage.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Home\\HomePage.cshtml",
+              "RelativeToolTip": "Views\\Home\\HomePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T13:35:23.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:33:18.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model2.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\models\\Model2.edmx",
+              "RelativeDocumentMoniker": "models\\Model2.edmx",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\models\\Model2.edmx [Diagram1]",
+              "RelativeToolTip": "models\\Model2.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-12-02T13:31:13.602Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAACsAAAAAAAAAAAASwD0AAABPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-02T09:53:57.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Users [Data]",
+              "DocumentIndex": 10,
+              "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebFood/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebFood/True/SqlTable/dbo.Users.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-02T09:47:54.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T09:24:50.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\models\\Users.cs",
-              "RelativeDocumentMoniker": "models\\Users.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\models\\Users.cs",
-              "RelativeToolTip": "models\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T09:09:42.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "C:\\Users\\asus\\AppData\\Local\\Temp\\2p2xummo..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\2p2xummo..sql",
-              "ToolTip": "SQLQuery1.sql *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-02T08:51:08.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T09:47:54.051Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwDkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:24:50.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\models\\Users.cs",
+              "RelativeDocumentMoniker": "models\\Users.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\models\\Users.cs",
+              "RelativeToolTip": "models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:09:42.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "2p2xummo..sql",
+              "DocumentMoniker": "C:\\Users\\asus\\AppData\\Local\\Temp\\2p2xummo..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\asus\\AppData\\Local\\Temp\\2p2xummo..sql",
+              "ToolTip": "C:\\Users\\asus\\AppData\\Local\\Temp\\2p2xummo..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\asus\\AppData\\Local\\Temp\\2p2xummo..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-02T08:51:08.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Views\\User\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\User\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Views\\User\\Register.cshtml",
               "RelativeToolTip": "Views\\User\\Register.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-02T09:01:35.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\models\\Model1.edmx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\models\\Model1.edmx",
               "RelativeDocumentMoniker": "models\\Model1.edmx",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\models\\Model1.edmx [Diagram1]",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\models\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-12-02T09:00:04.084Z",
@@ -152,16 +193,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\web design\\Web-Food\\MVC-Web-Food\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T10:13:37.482Z",
+              "DocumentIndex": 9,
+              "Title": "MasterLayOut.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\MasterLayOut.css",
+              "RelativeDocumentMoniker": "Content\\CSS\\MasterLayOut.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0110\u1ED3 \u00C1n\\Web-Food\\MVC-Web-Food\\Content\\CSS\\MasterLayOut.css",
+              "RelativeToolTip": "Content\\CSS\\MasterLayOut.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-02T09:57:30.101Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 534,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

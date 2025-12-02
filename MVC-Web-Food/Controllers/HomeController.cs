@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebFood.Models;
 
 namespace WebFood.Controllers
 {
     public class HomeController : Controller
     {
+        WebFoodEntities2 db = new WebFoodEntities2();
         public ActionResult Index()
         {
             return View();
@@ -27,7 +29,9 @@ namespace WebFood.Controllers
         }
         public ActionResult HomePage()
         {
-            return View();
+            // Lấy danh sách món ăn từ DB
+            var items = db.FoodItems.ToList();
+            return View(items);
         }
         public ActionResult ChiTietSanPham()
         {
@@ -52,5 +56,6 @@ namespace WebFood.Controllers
         public ActionResult Register() {
             return View();
         }
+
     }
 }
